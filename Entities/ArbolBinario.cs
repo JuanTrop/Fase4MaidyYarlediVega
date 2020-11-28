@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Fase4MaidyYarlediVega.Entities
 {
-    class ArbolBinario
+    public class ArbolBinario
     {
         private Nodo raiz;
         private List<int> recorrido = new List<int>();
@@ -14,6 +14,7 @@ namespace Fase4MaidyYarlediVega.Entities
         internal Nodo Raiz { get => raiz; set => raiz = value; }
         public List<int> Recorrido { get => recorrido; set => recorrido = value; }
 
+        //Insertar Nodo
         public void InsertarNodo(Nodo nodo) { 
 
             if(raiz == null)
@@ -51,7 +52,8 @@ namespace Fase4MaidyYarlediVega.Entities
                 }
             }
         }
-     
+        
+        //Recorrido PostOrden
         public void PostOrden(Nodo nodo)
         {
             
@@ -64,6 +66,7 @@ namespace Fase4MaidyYarlediVega.Entities
             }
         }
 
+        //Recorrido Inorden
         public void Inorden(Nodo nodo)
         {
             if (nodo != null)
@@ -76,6 +79,7 @@ namespace Fase4MaidyYarlediVega.Entities
             }
         }
 
+        //Recorrido PreOrden
         public void PreOrden(Nodo nodo)
         {
             if (nodo != null)
@@ -87,6 +91,7 @@ namespace Fase4MaidyYarlediVega.Entities
             }
         }
 
+        //Devuelve la información sobre el arbol en formato String
         public string String()
         {
             if (raiz != null)
@@ -98,11 +103,13 @@ namespace Fase4MaidyYarlediVega.Entities
             }
         }
 
+        //Imprime en consola la información del árbol
         public void Imprimir()
         {
             Console.WriteLine(this.String());
         }
 
+        //Limpia la lista de recorridos
         public void LimpiarRecorrido()
         {
             recorrido.Clear();

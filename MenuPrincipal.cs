@@ -15,6 +15,7 @@ namespace Fase4MaidyYarlediVega
         public MenuPrincipal()
         {
             InitializeComponent();
+            
         }
 
         private void btnEscenario1_Click(object sender, EventArgs e)
@@ -22,6 +23,18 @@ namespace Fase4MaidyYarlediVega
             Escenario1 escenario1 = new Escenario1();
 
             escenario1.Show();
+        }
+
+        private void btnEscenario2_Click(object sender, EventArgs e)
+        {
+            Escenario2 escenario2 = new Escenario2();
+
+            escenario2.Show();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

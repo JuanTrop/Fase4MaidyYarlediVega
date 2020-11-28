@@ -6,11 +6,18 @@ using System.Threading.Tasks;
 
 namespace Fase4MaidyYarlediVega.Entities
 {
-    class Nodo
+    public class Nodo
     {
         private Nodo izquierdo;
         private Nodo derecho;
         private int valor;
+
+        public Nodo(){ }
+
+        public Nodo(int valor)
+        {
+            this.valor = valor;
+        }
 
         public int Valor { get => valor; set => valor = value; }
         internal Nodo Izquierdo { get => izquierdo; set => izquierdo = value; }

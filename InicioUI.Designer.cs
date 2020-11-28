@@ -32,12 +32,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lblContraseña = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.txtContraseña = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.txtContraseña = new System.Windows.Forms.TextBox();
             this.lblAutor = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.lblLicencia = new System.Windows.Forms.Label();
             this.datePicker = new System.Windows.Forms.DateTimePicker();
+            this.lblLicencia = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -82,13 +82,6 @@
             this.panel1.Size = new System.Drawing.Size(347, 144);
             this.panel1.TabIndex = 3;
             // 
-            // txtContraseña
-            // 
-            this.txtContraseña.Location = new System.Drawing.Point(101, 44);
-            this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(137, 20);
-            this.txtContraseña.TabIndex = 3;
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(101, 70);
@@ -99,14 +92,22 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // txtContraseña
+            // 
+            this.txtContraseña.Location = new System.Drawing.Point(101, 44);
+            this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.PasswordChar = '*';
+            this.txtContraseña.Size = new System.Drawing.Size(137, 20);
+            this.txtContraseña.TabIndex = 3;
+            // 
             // lblAutor
             // 
             this.lblAutor.AutoSize = true;
             this.lblAutor.Location = new System.Drawing.Point(3, 26);
             this.lblAutor.Name = "lblAutor";
-            this.lblAutor.Size = new System.Drawing.Size(140, 13);
+            this.lblAutor.Size = new System.Drawing.Size(101, 13);
             this.lblAutor.TabIndex = 4;
-            this.lblAutor.Text = "Maidy Yarledi Vega Castaño";
+            this.lblAutor.Text = "Maidy Yarledi Vega ";
             this.lblAutor.Click += new System.EventHandler(this.label2_Click);
             // 
             // panel2
@@ -119,6 +120,14 @@
             this.panel2.Size = new System.Drawing.Size(712, 67);
             this.panel2.TabIndex = 5;
             // 
+            // datePicker
+            // 
+            this.datePicker.CausesValidation = false;
+            this.datePicker.Location = new System.Drawing.Point(252, 19);
+            this.datePicker.Name = "datePicker";
+            this.datePicker.Size = new System.Drawing.Size(200, 20);
+            this.datePicker.TabIndex = 6;
+            // 
             // lblLicencia
             // 
             this.lblLicencia.AutoSize = true;
@@ -127,14 +136,6 @@
             this.lblLicencia.Size = new System.Drawing.Size(138, 13);
             this.lblLicencia.TabIndex = 5;
             this.lblLicencia.Text = "Licencia Creative Commons";
-            // 
-            // datePicker
-            // 
-            this.datePicker.CausesValidation = false;
-            this.datePicker.Location = new System.Drawing.Point(252, 19);
-            this.datePicker.Name = "datePicker";
-            this.datePicker.Size = new System.Drawing.Size(200, 20);
-            this.datePicker.TabIndex = 6;
             // 
             // InicioUI
             // 

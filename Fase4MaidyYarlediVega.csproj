@@ -57,6 +57,12 @@
     <Compile Include="Escenario1.Designer.cs">
       <DependentUpon>Escenario1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Escenario2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Escenario2.Designer.cs">
+      <DependentUpon>Escenario2.cs</DependentUpon>
+    </Compile>
     <Compile Include="InicioUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +79,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Escenario1.resx">
       <DependentUpon>Escenario1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Escenario2.resx">
+      <DependentUpon>Escenario2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InicioUI.resx">
       <DependentUpon>InicioUI.cs</DependentUpon>

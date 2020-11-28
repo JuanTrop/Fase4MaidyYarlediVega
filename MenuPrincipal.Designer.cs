@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.panelTitulo = new System.Windows.Forms.Panel();
-            this.lblTitulo = new System.Windows.Forms.Label();
             this.lblSubTitulo = new System.Windows.Forms.Label();
+            this.lblTitulo = new System.Windows.Forms.Label();
             this.panelOpciones = new System.Windows.Forms.Panel();
-            this.lblTitulo1 = new System.Windows.Forms.Label();
-            this.btnEscenario1 = new System.Windows.Forms.Button();
-            this.btnEscenario2 = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.btnEscenario2 = new System.Windows.Forms.Button();
+            this.btnEscenario1 = new System.Windows.Forms.Button();
+            this.lblTitulo1 = new System.Windows.Forms.Label();
             this.panelTitulo.SuspendLayout();
             this.panelOpciones.SuspendLayout();
             this.SuspendLayout();
@@ -49,15 +49,6 @@
             this.panelTitulo.Size = new System.Drawing.Size(323, 89);
             this.panelTitulo.TabIndex = 0;
             // 
-            // lblTitulo
-            // 
-            this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Location = new System.Drawing.Point(95, 24);
-            this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(139, 13);
-            this.lblTitulo.TabIndex = 0;
-            this.lblTitulo.Text = "ESTRUCTURA DE DATOS";
-            // 
             // lblSubTitulo
             // 
             this.lblSubTitulo.AutoSize = true;
@@ -66,6 +57,17 @@
             this.lblSubTitulo.Size = new System.Drawing.Size(173, 13);
             this.lblSubTitulo.TabIndex = 1;
             this.lblSubTitulo.Text = "DISEÑO DE ARBOLES BINARIOS";
+            // 
+            // lblTitulo
+            // 
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Location = new System.Drawing.Point(51, 15);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(224, 20);
+            this.lblTitulo.TabIndex = 0;
+            this.lblTitulo.Text = "ESTRUCTURA DE DATOS";
             // 
             // panelOpciones
             // 
@@ -78,9 +80,43 @@
             this.panelOpciones.Size = new System.Drawing.Size(639, 112);
             this.panelOpciones.TabIndex = 1;
             // 
+            // btnSalir
+            // 
+            this.btnSalir.BackColor = System.Drawing.Color.Red;
+            this.btnSalir.Location = new System.Drawing.Point(484, 48);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(99, 34);
+            this.btnSalir.TabIndex = 3;
+            this.btnSalir.Text = "SALIR";
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // btnEscenario2
+            // 
+            this.btnEscenario2.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnEscenario2.Location = new System.Drawing.Point(273, 48);
+            this.btnEscenario2.Name = "btnEscenario2";
+            this.btnEscenario2.Size = new System.Drawing.Size(99, 34);
+            this.btnEscenario2.TabIndex = 2;
+            this.btnEscenario2.Text = "ESCENARIO 2";
+            this.btnEscenario2.UseVisualStyleBackColor = false;
+            this.btnEscenario2.Click += new System.EventHandler(this.btnEscenario2_Click);
+            // 
+            // btnEscenario1
+            // 
+            this.btnEscenario1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnEscenario1.Location = new System.Drawing.Point(61, 48);
+            this.btnEscenario1.Name = "btnEscenario1";
+            this.btnEscenario1.Size = new System.Drawing.Size(99, 34);
+            this.btnEscenario1.TabIndex = 1;
+            this.btnEscenario1.Text = "ESCENARIO 1";
+            this.btnEscenario1.UseVisualStyleBackColor = false;
+            this.btnEscenario1.Click += new System.EventHandler(this.btnEscenario1_Click);
+            // 
             // lblTitulo1
             // 
             this.lblTitulo1.AutoSize = true;
+            this.lblTitulo1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.lblTitulo1.Location = new System.Drawing.Point(43, 13);
             this.lblTitulo1.Name = "lblTitulo1";
             this.lblTitulo1.Size = new System.Drawing.Size(555, 13);
@@ -88,38 +124,11 @@
             this.lblTitulo1.Text = "BIENVENIDO AL MENU PRINCIPAL, SELECCIONE A QUE ESCENARIO QUIERE ACCEDER O SI DESE" +
     "A SALIR ";
             // 
-            // btnEscenario1
-            // 
-            this.btnEscenario1.Location = new System.Drawing.Point(61, 48);
-            this.btnEscenario1.Name = "btnEscenario1";
-            this.btnEscenario1.Size = new System.Drawing.Size(99, 34);
-            this.btnEscenario1.TabIndex = 1;
-            this.btnEscenario1.Text = "ESCENARIO 1";
-            this.btnEscenario1.UseVisualStyleBackColor = true;
-            this.btnEscenario1.Click += new System.EventHandler(this.btnEscenario1_Click);
-            // 
-            // btnEscenario2
-            // 
-            this.btnEscenario2.Location = new System.Drawing.Point(273, 48);
-            this.btnEscenario2.Name = "btnEscenario2";
-            this.btnEscenario2.Size = new System.Drawing.Size(99, 34);
-            this.btnEscenario2.TabIndex = 2;
-            this.btnEscenario2.Text = "ESCENARIO 2";
-            this.btnEscenario2.UseVisualStyleBackColor = true;
-            // 
-            // btnSalir
-            // 
-            this.btnSalir.Location = new System.Drawing.Point(484, 48);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(99, 34);
-            this.btnSalir.TabIndex = 3;
-            this.btnSalir.Text = "SALIR";
-            this.btnSalir.UseVisualStyleBackColor = true;
-            // 
             // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(718, 310);
             this.Controls.Add(this.panelOpciones);
             this.Controls.Add(this.panelTitulo);
