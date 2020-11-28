@@ -46,7 +46,7 @@
             // 
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(204, 56);
+            this.lblTitulo.Location = new System.Drawing.Point(177, 37);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(431, 31);
             this.lblTitulo.TabIndex = 0;
@@ -77,9 +77,9 @@
             this.panel1.Controls.Add(this.txtContraseña);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.lblContraseña);
-            this.panel1.Location = new System.Drawing.Point(227, 112);
+            this.panel1.Location = new System.Drawing.Point(265, 116);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(347, 144);
+            this.panel1.Size = new System.Drawing.Size(271, 122);
             this.panel1.TabIndex = 3;
             // 
             // button1

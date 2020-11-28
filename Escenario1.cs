@@ -151,7 +151,7 @@ namespace Fase4MaidyYarlediVega
 
             for (int i = 0; i < arbol.Recorrido.Count; i++)
             {
-                DibujarNodo(nodo, myNodoRaiz, arbol.Recorrido[i].ToString(), 90 + space, 350);
+                DibujarNodo(nodo, myNodoRaiz, arbol.Recorrido[i].ToString(), 120 + space, 350);
                 space += 40;
             }
 
@@ -173,7 +173,7 @@ namespace Fase4MaidyYarlediVega
 
             for (int i = 0; i < arbol.Recorrido.Count; i++)
             {
-                DibujarNodo(nodo, myNodoRaiz, arbol.Recorrido[i].ToString(), 90 + space, 350);
+                DibujarNodo(nodo, myNodoRaiz, arbol.Recorrido[i].ToString(), 120 + space, 350);
                 space += 40;
             }
 
@@ -195,7 +195,7 @@ namespace Fase4MaidyYarlediVega
 
             for (int i = 0; i < arbol.Recorrido.Count; i++)
             {
-                DibujarNodo(nodo, myNodoRaiz, arbol.Recorrido[i].ToString(), 90 + space, 350);
+                DibujarNodo(nodo, myNodoRaiz, arbol.Recorrido[i].ToString(), 120 + space, 350);
                 space += 40;
             }
 
